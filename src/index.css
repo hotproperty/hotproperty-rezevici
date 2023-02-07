@@ -1,0 +1,62 @@
+@tailwind base;
+
+@layer base {
+
+  @font-face {
+      font-family: 'Bebas Neue Pro';
+      src: local('Bebas Neue Pro Regular'), local('BebasNeuePro-Regular'),
+        url('./assets/fonts/BebasNeuePro-Regular.woff2') format('woff2'),
+        url('./assets/fonts/BebasNeuePro-Regular.woff') format('woff'),
+        url('./assets/fonts/BebasNeuePro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/BebasNeuePro-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @font-face {
+      font-family: 'Bebas Neue Pro';
+      src: url('./assets/fonts/BebasNeuePro-Bold.eot');
+      src: local('Bebas Neue Pro Bold'), local('BebasNeuePro-Bold'),
+        url('./assets/fonts/BebasNeuePro-Bold.woff2') format('woff2'),
+        url('./assets/fonts/BebasNeuePro-Bold.woff') format('woff'),
+        url('./assets/fonts/BebasNeuePro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/BebasNeuePro-Bold.ttf') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+  }
+
+  main {
+    @apply overflow-hidden relative;
+  }
+
+}
+
+
+@tailwind components;
+
+@layer components {
+
+  .after-triangle::after {
+    content: '';
+    @apply absolute left-1/2 bottom-0 transform translate-y-full -translate-x-1/2;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 2vw 1.75vw 0 1.75vw;
+    border-color: theme('colors.red') transparent transparent;
+  }
+
+  @media screen(sm) {
+    .after-triangle::after {
+      border-width: 1vw 0.75vw 0 0.75vw;
+    }
+  }
+
+}
+
+
+@tailwind utilities;
+
+@layer utilities {
+
+}
