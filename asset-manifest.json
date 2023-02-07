@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2000fd37.css",
+    "main.js": "/static/js/main.2a176c28.js",
+    "static/media/BebasNeuePro-Regular.eot": "/static/media/BebasNeuePro-Regular.7f2a352074454f0ce3f2.eot",
+    "static/media/BebasNeuePro-Regular.ttf": "/static/media/BebasNeuePro-Regular.23990c6faa586f80dc23.ttf",
+    "static/media/BebasNeuePro-Bold.eot": "/static/media/BebasNeuePro-Bold.87acc6c8f404bf2dc74e.eot",
+    "static/media/BebasNeuePro-Bold.ttf": "/static/media/BebasNeuePro-Bold.0f65175b362323f05e8c.ttf",
+    "static/media/BebasNeuePro-Regular.woff": "/static/media/BebasNeuePro-Regular.a8c263f356ed0cd8a23d.woff",
+    "static/media/BebasNeuePro-Bold.woff": "/static/media/BebasNeuePro-Bold.24fb5d24ebf22f64bdfa.woff",
+    "static/media/BebasNeuePro-Regular.woff2": "/static/media/BebasNeuePro-Regular.b6da36ec611b26c00e66.woff2",
+    "static/media/BebasNeuePro-Bold.woff2": "/static/media/BebasNeuePro-Bold.15072117e0aece4a349e.woff2",
+    "static/media/logo.svg": "/static/media/logo.6614be9f4aca35eb9cfc76d2d2c97f2f.svg",
+    "index.html": "/index.html",
+    "main.2000fd37.css.map": "/static/css/main.2000fd37.css.map",
+    "main.2a176c28.js.map": "/static/js/main.2a176c28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2000fd37.css",
+    "static/js/main.2a176c28.js"
+  ]
+}
